@@ -68,3 +68,10 @@ console.log(`lowest marks is : ${result.value} (${result.name})`);
 
 
 console.log(`----------------------------`);
+
+
+const heightsMarks = [97, 94, 64, 83, 80, 79];
+const check = Math.min(...heightsMarks);
+console.log("Min:", check);
+
+console.log("Max:", Math.max(97, 94, 64, 83, 80, 79));
