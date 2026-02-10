@@ -43,3 +43,20 @@ console.log(tallestNumber);
 
 let smallest = Math.min(23, 46, 76, 45, 18, 35, 22);
 console.log(smallest);
+
+
+
+console.log(`--------------------`);
+
+let smallNumbers = [56, 76, 46, 68, 53, 45, 24];
+
+function smallestNum(numbers) {
+    let number = numbers[0];
+    for (let i of numbers) {
+        if (i < number) {
+            number = i;
+        }
+    }
+    return number;
+}
+console.log(smallestNum(smallNumbers));
