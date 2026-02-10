@@ -20,7 +20,6 @@ function analyzeText(str) {
         longwords: bigWord,
         token: wordCount
     }
-
 }
 
 console.log(analyzeText("I am a little honest person"))
