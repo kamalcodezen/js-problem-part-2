@@ -11,3 +11,6 @@ function totalCost(pantQuantity, shirtQuantity, shoesQuantity) {
 }
 
 console.log(totalCost(2, 3, 2));
+
+
+
