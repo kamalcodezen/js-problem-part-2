@@ -17,3 +17,29 @@ if (jim > kim && jim > kamal && jim > jisan && jim > gorsia) {
     console.log("gorsia is ultimate boss");
 };
 
+
+
+let bigNumber = [56, 76, 46, 68, 53, 45, 24];
+console.log(Math.max(...bigNumber));
+
+let newArray = [...bigNumber];
+newArray[0] = 999;
+console.log(newArray);
+console.log(bigNumber);
+
+let changeArray = bigNumber.slice();
+changeArray[2] = 888;
+console.log(changeArray);
+console.log(bigNumber);
+
+
+let number = 87;
+let number2 = 67;
+let number3 = 97;
+let number4 = 47;
+
+let tallestNumber = Math.max(number, number2, number3, number4);
+console.log(tallestNumber);
+
+let smallest = Math.min(23, 46, 76, 45, 18, 35, 22);
+console.log(smallest);
